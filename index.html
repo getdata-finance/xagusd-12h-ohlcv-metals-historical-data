@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<!--
+  GitHub Pages asset landing template (getdata.finance style)
+
+  Expected placeholders:
+  xagusd-12h-ohlcv-metals-historical-data, XAGUSD, 12h, 12H, Metals,
+  metals, Silver / US Dollar, Global spot sessions — Asia, Europe and US coverage for precious metals trading.,
+  327, 2026-01-05, 2026-07-31,
+  9,677, 2009-02-24, 2026-07-31,
+  0.78 MB, 12h, XAGUSD_12h.csv,
+  2026-08-05 UTC, [{"time":1767312000,"open":72.7245,"high":74.548,"low":71.708,"close":73.426,"volume":472934},{"time":1767355200,"open":73.7967,"high":74.3498,"low":71.272,"close":72.496,"volume":817145},{"time":1767528000,"open":73.25205,"high":76.345,"low":72.496,"close":75.4,"volume":232910},{"time":1767571200,"open":75.4625,"high":76.963,"low":74.431,"close":76.576,"volume":666741},{"time":1767614400,"open":75.53025,"high":77.868,"low":75.465,"close":77.575,"volume":774902},{"time":1767657600,"open":76.5902,"high":80.321,"low":76.4487,"close":80.232,"volume":673857},{"time":1767700800,"open":78.90815,"high":82.67815,"low":78.63795,"close":80.826,"volume":838917},{"time":1767744000,"open":80.31945,"high":81.45345,"low":76.473,"close":77.414,"volume":762680},{"time":1767787200,"open":77.4524,"high":78.94725,"low":76.207,"close":77.805,"volume":810207},{"time":1767830400,"open":78.531,"high":78.5365,"low":73.681,"close":74.347,"volume":793275},{"time":1767873600,"open":74.06365,"high":77.357,"low":73.74995,"close":76.803,"volume":817550},{"time":1767916800,"open":76.4764,"high":79.35,"low":75.962,"close":79.157,"volume":611514},{"time":1767960000,"open":78.2451,"high":80.43035,"low":78.1275,"close":79.787,"volume":535370},{"time":1768132800,"open":80.3035,"high":83.931,"low":79.735,"close":83.126,"volume":298732},{"time":1768176000,"open":82.8145,"high":85.705,"low":82.2605,"close":84.825,"volume":667600},{"time":1768219200,"open":85.5315,"high":86.174,"low":83.267,"close":85.341,"volume":783676},{"time":1768262400,"open":83.65105,"high":89.106,"low":83.6434,"close":88.67,"volume":629394},{"time":1768305600,"open":87.6363,"high":89.8688,"low":85.753,"close":89.529,"volume":992951},{"time":1768348800,"open":89.82385,"high":92.165,"low":89.043,"close":91.036,"volume":772265},{"time":1768392000,"open":91.702,"high":93.549,"low":86.272,"close":88.511,"volume":1258781},{"time":1768435200,"open":87.9009,"high":91.3974,"low":86.256,"close":90.214,"volume":879944},{"time":1768478400,"open":88.4417,"high":93.002,"low":87.84565,"close":89.872,"volume":1065685},{"time":1768521600,"open":91.0611,"high":91.79415,"low":87.504,"close":88.97,"volume":738173},{"time":1768564800,"open":88.7848,"high":90.0597,"low":86.69,"close":89.627,"volume":852931},{"time":1768737600,"open":91.79775,"high":94.038,"low":89.896,"close":93.113,"volume":344106},{"time":1768780800,"open":93.0987,"high":93.7711,"low":92.255,"close":93.666,"volume":445333},{"time":1768824000,"open":93.19345,"high":94.682,"low":92.569,"close":92.855,"volume":301761},{"time":1768867200,"open":93.06055,"high":95.809,"low":92.432,"close":94.757,"volume":707353},{"time":1768910400,"open":95.11675,"high":95.76705,"low":92.967,"close":93.974,"volume":1123833},{"time":1768953600,"open":94.34765,"high":95.2439,"low":93.186,"close":93.557,"volume":719762},{"time":1768996800,"open":94.89375,"high":95.019,"low":90.17,"close":92.613,"volume":1300769},{"time":1769040000,"open":92.1426,"high":94.368,"low":91.6438,"close":93.677,"volume":539584},{"time":1769083200,"open":93.448,"high":99.114,"low":93.23735,"close":98.607,"volume":1006406},{"time":1769126400,"open":98.51825,"high":99.752,"low":97.379,"close":99.134,"volume":608205},{"time":1769169600,"open":99.5134,"high":103.359,"low":98.8995,"close":102.793,"volume":805411},{"time":1769342400,"open":104.6398,"high":109.319,"low":102.793,"close":108.779,"volume":432140},{"time":1769385600,"open":107.5228,"high":111.332,"low":106.123,"close":111.091,"volume":1154184},{"time":1769428800,"open":108.99665,"high":117.723,"low":101.461,"close":110.265,"volume":2246515},{"time":1769472000,"open":110.09645,"high":113.4025,"low":105.972,"close":106.261,"volume":1418672},{"time":1769515200,"open":111.90075,"high":114.432,"low":104.814,"close":114.257,"volume":1596210},{"time":1769558400,"open":113.0781,"high":116.056,"low":111.083,"close":114.784,"volume":1081390},{"time":1769601600,"open":114.0469,"high":119.34945,"low":110.351,"close":117.528,"volume":1756235},{"time":1769644800,"open":117.8003,"high":121.559,"low":115.181,"close":119.136,"volume":1377015},{"time":1769688000,"open":119.1847,"high":121.57925,"low":106.554,"close":110.886,"volume":2169220},{"time":1769731200,"open":113.16555,"high":114.1703,"low":94.765,"close":99.236,"volume":1817437},{"time":1769774400,"open":97.9208,"high":101.51745,"low":73.21565,"close":84.429,"volume":1439802},{"time":1769947200,"open":81.7358,"high":87.86885,"low":76.64095,"close":80.435,"volume":488753},{"time":1769990400,"open":84.7058,"high":84.9008,"low":71.138,"close":78.366,"volume":1565156},{"time":1770033600,"open":81.5765,"high":85.595,"low":75.141,"close":81.515,"volume":1566626},{"time":1770076800,"open":84.3447,"high":89.167,"low":80.9645,"close":87.906,"volume":1277818},{"time":1770120000,"open":88.0411,"high":89.03,"low":82.531,"close":86.849,"volume":1538722},{"time":1770163200,"open":87.3353,"high":92.027,"low":86.21,"close":89.412,"volume":749890},{"time":1770206400,"open":91.5605,"high":92.11245,"low":73.709,"close":74.149,"volume":1506380},{"time":1770249600,"open":86.6013,"high":86.72725,"low":73.248,"close":76.22,"volume":1250041},{"time":1770292800,"open":75.9846,"high":77.8263,"low":63.905,"close":71.557,"volume":1386354},{"time":1770336000,"open":70.804,"high":76.38,"low":70.0145,"close":76.165,"volume":829660},{"time":1770379200,"open":75.4114,"high":78.107,"low":74.171,"close":77.504,"volume":507076},{"time":1770552000,"open":79.44995,"high":81.58395,"low":77.504,"close":80.772,"volume":267209},{"time":1770595200,"open":80.1768,"high":82.3992,"low":78.552,"close":81.443,"volume":612167},{"time":1770638400,"open":79.6746,"high":83.94095,"low":79.31955,"close":81.926,"volume":869461},{"time":1770681600,"open":82.0808,"high":82.967,"low":80.431,"close":82.017,"volume":534400},{"time":1770724800,"open":81.893,"high":82.9519,"low":79.809,"close":82.201,"volume":755942},{"time":1770768000,"open":81.91945,"high":86.256,"low":81.5213,"close":83.568,"volume":572605},{"time":1770811200,"open":84.6195,"high":85.41455,"low":81.375,"close":83.299,"volume":947164},{"time":1770854400,"open":83.33645,"high":84.14735,"low":81.726,"close":82.316,"volume":435831},{"time":1770897600,"open":82.95,"high":83.4418,"low":73.773,"close":76.986,"volume":1303980},{"time":1770940800,"open":76.6713,"high":79.299,"low":75.805,"close":77.187,"volume":612810},{"time":1770984000,"open":78.6065,"high":79.053,"low":75.9299,"close":77.117,"volume":700638},{"time":1771156800,"open":75.2886,"high":77.69,"low":74.45,"close":75.598,"volume":118296},{"time":1771200000,"open":77.2073,"high":77.36755,"low":74.59,"close":76.459,"volume":232467},{"time":1771243200,"open":76.8772,"high":77.0411,"low":72.948,"close":76.186,"volume":217287},{"time":1771286400,"open":75.6844,"high":76.4695,"low":71.966,"close":72.116,"volume":594136},{"time":1771329600,"open":72.9349,"high":74.6853,"low":71.865,"close":73.378,"volume":998763},{"time":1771372800,"open":73.37325,"high":77.717,"low":73.18895,"close":77.473,"volume":386534},{"time":1771416000,"open":76.58395,"high":78.253,"low":76.1,"close":77.026,"volume":755948},{"time":1771459200,"open":77.2086,"high":79.458,"low":76.888,"close":77.83,"volume":405356},{"time":1771502400,"open":78.26545,"high":79.068,"low":77.10035,"close":77.951,"volume":804829},{"time":1771545600,"open":78.2244,"high":81.795,"low":77.271,"close":81.49,"volume":358895},{"time":1771588800,"open":80.7155,"high":84.6585,"low":79.635,"close":84.227,"volume":841749},{"time":1771761600,"open":85.3367,"high":87.663,"low":84.227,"close":87.413,"volume":171922},{"time":1771804800,"open":86.76035,"high":87.872,"low":85.008,"close":87.105,"volume":389546},{"time":1771848000,"open":85.6591,"high":88.95475,"low":84.785,"close":87.294,"volume":890024},{"time":1771891200,"open":86.44305,"high":88.83925,"low":85.217,"close":86.955,"volume":672671},{"time":1771934400,"open":86.1042,"high":89.561,"low":85.305,"close":89.251,"volume":967556},{"time":1771977600,"open":88.20095,"high":91.16425,"low":88.1965,"close":90.452,"volume":588156},{"time":1772020800,"open":90.46595,"high":91.199,"low":87.052,"close":88.671,"volume":851521},{"time":1772064000,"open":89.50405,"high":89.9148,"low":85.513,"close":86.463,"volume":688607},{"time":1772107200,"open":87.0727,"high":89.918,"low":85.075,"close":89.669,"volume":882911},{"time":1772150400,"open":89.42045,"high":92.647,"low":88.918,"close":91.494,"volume":628218},{"time":1772193600,"open":92.1279,"high":94.06505,"low":90.8762,"close":93.638,"volume":860905},{"time":1772366400,"open":95.6048,"high":96.33305,"low":91.863,"close":93.82,"volume":444205},{"time":1772409600,"open":92.1669,"high":96.146,"low":88.111,"close":89.79,"volume":993826},{"time":1772452800,"open":93.79785,"high":93.80285,"low":86.337,"close":89.921,"volume":1214585},{"time":1772496000,"open":88.6069,"high":90.2254,"low":77.752,"close":79.35,"volume":1351064},{"time":1772539200,"open":82.16035,"high":85.333,"low":79.07585,"close":83.89,"volume":1254488},{"time":1772582400,"open":84.29945,"high":86.74675,"low":83.022,"close":83.337,"volume":830974},{"time":1772625600,"open":84.64975,"high":85.1861,"low":82.07,"close":84.996,"volume":865821},{"time":1772668800,"open":84.25025,"high":85.46,"low":80.346,"close":82.497,"volume":832449},{"time":1772712000,"open":82.528,"high":84.3386,"low":80.505,"close":83.638,"volume":1159938},{"time":1772755200,"open":83.99575,"high":84.66025,"low":81.51,"close":83.614,"volume":782424},{"time":1772798400,"open":82.4755,"high":84.899,"low":82.3055,"close":84.174,"volume":897850},{"time":1772971200,"open":84.0693,"high":84.951,"low":79.482,"close":80.905,"volume":332423},{"time":1773014400,"open":81.365,"high":85.024,"low":79.55815,"close":83.334,"volume":931289},{"time":1773057600,"open":83.605,"high":89.386,"low":82.936,"close":89.272,"volume":1053954},{"time":1773100800,"open":86.8775,"high":89.9282,"low":86.5121,"close":88.639,"volume":691405},{"time":1773144000,"open":88.53025,"high":89.63005,"low":86.7787,"close":88.355,"volume":801022},{"time":1773187200,"open":89.13485,"high":89.3545,"low":84.292,"close":85.075,"volume":695989},{"time":1773230400,"open":85.2103,"high":86.1295,"low":83.829,"close":85.298,"volume":719501},{"time":1773273600,"open":85.5494,"high":87.3195,"low":84.193,"close":85.753,"volume":637859},{"time":1773316800,"open":87.2212,"high":87.367,"low":82.867,"close":84.655,"volume":994399},{"time":1773360000,"open":85.0056,"high":85.36955,"low":81.461,"close":83.379,"volume":788991},{"time":1773403200,"open":84.187,"high":84.3944,"low":79.275,"close":80.336,"volume":975194},{"time":1773576000,"open":79.89635,"high":81.4778,"low":78.345,"close":80.21,"volume":307888},{"time":1773619200,"open":81.3839,"high":81.48,"low":76.97,"close":81.098,"volume":853183},{"time":1773662400,"open":80.15515,"high":81.55125,"low":79.354,"close":81.293,"volume":885295},{"time":1773705600,"open":80.3139,"high":82.46175,"low":79.7637,"close":81.092,"volume":579893},{"time":1773748800,"open":80.5871,"high":81.32395,"low":78.141,"close":78.998,"volume":748710},{"time":1773792000,"open":79.339,"high":80.1079,"low":75.426,"close":77.291,"volume":784018},{"time":1773835200,"open":77.4757,"high":77.844,"low":74.846,"close":75.992,"volume":969546},{"time":1773878400,"open":76.34185,"high":76.60845,"low":65.313,"close":69.416,"volume":1263596},{"time":1773921600,"open":67.2695,"high":74.389,"low":65.39665,"close":73.637,"volume":1333558},{"time":1773964800,"open":72.42045,"high":74.4701,"low":69.79,"close":70.065,"volume":1005582},{"time":1774008000,"open":71.78815,"high":72.1701,"low":67.514,"close":67.862,"volume":1122748},{"time":1774180800,"open":67.1634,"high":69.50385,"low":64.618,"close":65.944,"volume":441238},{"time":1774224000,"open":66.2529,"high":69.653,"low":60.815,"close":68.813,"volume":2049257},{"time":1774267200,"open":69.3348,"high":70.766,"low":66.309,"close":66.658,"volume":1632434},{"time":1774310400,"open":68.0842,"high":70.442,"low":65.827,"close":68.291,"volume":1372542},{"time":1774353600,"open":68.387,"high":74.407,"low":67.6067,"close":73.741,"volume":1232954},{"time":1774396800,"open":73.6415,"high":74.4795,"low":71.775,"close":72.093,"volume":915630},{"time":1774440000,"open":72.655,"high":73.26,"low":70.208,"close":71.712,"volume":1042055},{"time":1774483200,"open":71.87445,"high":72.14,"low":66.762,"close":69.08,"volume":1076140},{"time":1774526400,"open":67.3606,"high":69.6418,"low":66.538,"close":68.465,"volume":1087793},{"time":1774569600,"open":67.4891,"high":70.28535,"low":67.32935,"close":67.805,"volume":819710},{"time":1774612800,"open":67.911,"high":71.5505,"low":67.453,"close":69.789,"volume":790268},{"time":1774785600,"open":69.31915,"high":69.789,"low":67.507,"close":68.665,"volume":378822},{"time":1774828800,"open":68.27465,"high":71.734,"low":68.16235,"close":70.086,"volume":937079},{"time":1774872000,"open":71.26185,"high":73.386,"low":68.854,"close":72.734,"volume":950468},{"time":1774915200,"open":70.57745,"high":73.4215,"low":70.35075,"close":73.195,"volume":977506},{"time":1774958400,"open":72.7635,"high":75.555,"low":72.4415,"close":74.418,"volume":920299},{"time":1775001600,"open":75.0525,"high":75.55395,"low":73.606,"close":74.556,"volume":724527},{"time":1775044800,"open":74.59795,"high":76.3271,"low":72.153,"close":72.832,"volume":835853},{"time":1775088000,"open":75.452,"high":75.49945,"low":69.383,"close":71.257,"volume":997783},{"time":1775131200,"open":70.02985,"high":73.044,"low":69.472,"close":72.802,"volume":733542},{"time":1775174400,"open":72.802,"high":72.812,"low":72.802,"close":72.812,"volume":3},{"time":1775390400,"open":71.99105,"high":72.812,"low":70.929,"close":71.758,"volume":171586},{"time":1775433600,"open":72.169,"high":73.484,"low":71.548,"close":72.538,"volume":507061},{"time":1775476800,"open":72.9969,"high":73.3,"low":71.396,"close":71.932,"volume":672450},{"time":1775520000,"open":72.4805,"high":73.274,"low":71.051,"close":71.099,"volume":756316},{"time":1775563200,"open":71.8025,"high":77.0921,"low":69.639,"close":76.375,"volume":1084947},{"time":1775606400,"open":76.5782,"high":77.56,"low":75.90595,"close":76.312,"volume":618628},{"time":1775649600,"open":77.31805,"high":77.50395,"low":72.704,"close":73.7,"volume":797620},{"time":1775692800,"open":73.46115,"high":75.212,"low":72.7895,"close":74.87,"volume":528294},{"time":1775736000,"open":74.335,"high":76.622,"low":74.055,"close":75.39,"volume":825542},{"time":1775779200,"open":75.3355,"high":76.407,"low":74.663,"close":76.133,"volume":530341},{"time":1775822400,"open":75.8095,"high":76.745,"low":75.559,"close":76.034,"volume":495116},{"time":1775995200,"open":73.4941,"high":76.034,"low":72.407,"close":74.193,"volume":202465},{"time":1776038400,"open":74.39,"high":74.81375,"low":73.409,"close":74.077,"volume":535495},{"time":1776081600,"open":73.8293,"high":76.276,"low":73.479,"close":75.672,"volume":749244},{"time":1776124800,"open":75.872,"high":78.31,"low":75.646,"close":78.135,"volume":587715},{"time":1776168000,"open":77.4085,"high":80.722,"low":77.3615,"close":80.353,"volume":770423},{"time":1776211200,"open":79.59,"high":80.93145,"low":78.073,"close":79.867,"volume":711001},{"time":1776254400,"open":78.5238,"high":80.46,"low":78.5205,"close":79.929,"volume":826509},{"time":1776297600,"open":80.0538,"high":80.7725,"low":78.101,"close":78.533,"volume":552970},{"time":1776340800,"open":79.157,"high":79.69695,"low":77.595,"close":78.268,"volume":919546},{"time":1776384000,"open":78.65,"high":82.332,"low":77.6855,"close":82.195,"volume":617181},{"time":1776427200,"open":81.46,"high":82.982,"low":80.6955,"close":80.823,"volume":843178},{"time":1776600000,"open":79.3069,"high":80.601,"low":78.451,"close":80.38,"volume":217241},{"time":1776643200,"open":79.7715,"high":80.5885,"low":78.911,"close":80.108,"volume":597043},{"time":1776686400,"open":79.5225,"high":80.3485,"low":79.012,"close":79.263,"volume":650076},{"time":1776729600,"open":79.794,"high":79.855,"low":77.963,"close":78.591,"volume":529825},{"time":1776772800,"open":78.679,"high":78.9565,"low":75.24,"close":77.445,"volume":1089112},{"time":1776816000,"open":77.36775,"high":78.589,"low":77.248,"close":77.99,"volume":500516},{"time":1776859200,"open":77.5885,"high":78.308,"low":76.221,"close":76.861,"volume":709710},{"time":1776902400,"open":78.07525,"high":78.24105,"low":74.071,"close":75.737,"volume":773394},{"time":1776945600,"open":76.716,"high":76.85875,"low":74.448,"close":75.443,"volume":1069884},{"time":1776988800,"open":75.68225,"high":76.166,"low":73.785,"close":75.599,"volume":702863},{"time":1777032000,"open":75.48005,"high":76.596,"low":75.129,"close":75.616,"volume":740545},{"time":1777204800,"open":75.42435,"high":75.885,"low":74.558,"close":75.273,"volume":143976},{"time":1777248000,"open":75.56195,"high":76.4932,"low":74.844,"close":75.341,"volume":518206},{"time":1777291200,"open":75.418,"high":76.0675,"low":74.463,"close":74.48,"volume":524781},{"time":1777334400,"open":75.6011,"high":75.701,"low":71.874,"close":72.741,"volume":716660},{"time":1777377600,"open":73.392,"high":73.745,"low":72.056,"close":73.11,"volume":725788},{"time":1777420800,"open":73.1185,"high":73.8665,"low":71.139,"close":71.451,"volume":592191},{"time":1777464000,"open":71.957,"high":72.818,"low":70.695,"close":72.729,"volume":796807},{"time":1777507200,"open":71.998,"high":73.8295,"low":71.429,"close":72.801,"volume":647871},{"time":1777550400,"open":73.448,"high":74.524,"low":72.663,"close":74.024,"volume":681048},{"time":1777593600,"open":74.069,"high":76.232,"low":72.803,"close":76.086,"volume":394528},{"time":1777636800,"open":74.1175,"high":76.931,"low":74.102,"close":75.238,"volume":541425},{"time":1777809600,"open":75.6992,"high":75.9045,"low":74.86,"close":75.555,"volume":128033},{"time":1777852800,"open":75.5165,"high":75.7335,"low":72.039,"close":73.719,"volume":621351},{"time":1777896000,"open":73.651,"high":74.576,"low":72.245,"close":72.716,"volume":822640},{"time":1777939200,"open":72.6875,"high":74.11,"low":72.474,"close":73.526,"volume":384428},{"time":1777982400,"open":73.3525,"high":74.986,"low":72.467,"close":74.652,"volume":468404},{"time":1778025600,"open":74.367,"high":77.727,"low":74.1465,"close":77.167,"volume":746373},{"time":1778068800,"open":76.781,"high":78.277,"low":76.335,"close":77.899,"volume":609370},{"time":1778112000,"open":77.084,"high":81.605,"low":76.9078,"close":81.129,"volume":619047},{"time":1778155200,"open":81.402,"high":82.03945,"low":78.125,"close":79.772,"volume":1084894},{"time":1778198400,"open":79.0265,"high":81.471,"low":79.00545,"close":81.336,"volume":729337},{"time":1778241600,"open":81.0353,"high":81.48175,"low":79.713,"close":80.213,"volume":532104},{"time":1778414400,"open":79.2873,"high":80.679,"low":78.881,"close":80.64,"volume":199876},{"time":1778457600,"open":79.9295,"high":85.705,"low":79.4736,"close":85.357,"volume":775758},{"time":1778500800,"open":83.5452,"high":87.12365,"low":83.41495,"close":85.877,"volume":750626},{"time":1778544000,"open":85.939,"high":87,"low":82.906,"close":84.334,"volume":904742},{"time":1778587200,"open":84.36215,"high":87.636,"low":82.89,"close":86.577,"volume":997187},{"time":1778630400,"open":87.1084,"high":87.7165,"low":85.449,"close":86.947,"volume":792651},{"time":1778673600,"open":86.306,"high":89.2872,"low":86.306,"close":87.191,"volume":846418},{"time":1778716800,"open":87.97835,"high":88.36125,"low":83.669,"close":83.784,"volume":735146},{"time":1778760000,"open":86.4675,"high":86.66885,"low":80.456,"close":80.634,"volume":737102},{"time":1778803200,"open":82.4147,"high":82.4658,"low":75.608,"close":76.271,"volume":1188962},{"time":1778846400,"open":77.1213,"high":77.354,"low":75.568,"close":75.852,"volume":737384},{"time":1779019200,"open":75.87995,"high":76.83845,"low":73.71,"close":74.712,"volume":356298},{"time":1779062400,"open":75.3298,"high":78.036,"low":73.7709,"close":77.687,"volume":976591},{"time":1779105600,"open":77.3741,"high":78.80245,"low":75.968,"close":76.961,"volume":793947},{"time":1779148800,"open":77.445,"high":77.6865,"low":72.929,"close":74.228,"volume":871969},{"time":1779192000,"open":75.9482,"high":75.96045,"low":72.9994,"close":74.037,"volume":834514},{"time":1779235200,"open":74.553,"high":75.72,"low":72.953,"close":74.688,"volume":775474},{"time":1779278400,"open":75.415,"high":76.795,"low":74.262,"close":76.205,"volume":757137},{"time":1779321600,"open":76.0205,"high":76.866,"low":74.247,"close":75.27,"volume":923376},{"time":1779364800,"open":74.631,"high":77.0305,"low":74.32335,"close":76.273,"volume":786347},{"time":1779408000,"open":76.1375,"high":76.95,"low":75.264,"close":75.817,"volume":649105},{"time":1779451200,"open":76.10905,"high":76.3975,"low":74.81,"close":75.274,"volume":527565},{"time":1779624000,"open":77.012,"high":78.7335,"low":75.332,"close":77.678,"volume":189756},{"time":1779667200,"open":78.10795,"high":78.4957,"low":77.14,"close":77.442,"volume":497634},{"time":1779710400,"open":77.7426,"high":78.411,"low":75.558,"close":76.269,"volume":348530},{"time":1779753600,"open":77.4938,"high":77.51165,"low":75.328,"close":75.808,"volume":594459},{"time":1779796800,"open":76.152,"high":77.479,"low":75.668,"close":76.611,"volume":419620},{"time":1779840000,"open":77.102,"high":77.3945,"low":73.264,"close":74.392,"volume":659852},{"time":1779883200,"open":74.2855,"high":74.992,"low":72.855,"close":72.95,"volume":441698},{"time":1779926400,"open":74.8255,"high":74.878,"low":71.631,"close":73.175,"volume":617515},{"time":1779969600,"open":74.064,"high":76.325,"low":72.994,"close":75.84,"volume":476415},{"time":1780012800,"open":75.5655,"high":76.345,"low":74.808,"close":75.312,"volume":473987},{"time":1780056000,"open":75.59035,"high":76.593,"low":74.425,"close":75.221,"volume":462828},{"time":1780228800,"open":74.3671,"high":75.693,"low":73.892,"close":75.39,"volume":126600},{"time":1780272000,"open":75.488,"high":76.2035,"low":73.683,"close":73.734,"volume":540381},{"time":1780315200,"open":75.712,"high":75.845,"low":73.663,"close":74.669,"volume":510199},{"time":1780358400,"open":74.843,"high":76.92065,"low":74.38845,"close":75.701,"volume":504529},{"time":1780401600,"open":76.009,"high":76.46515,"low":73.879,"close":74.584,"volume":449544},{"time":1780444800,"open":75.0626,"high":75.1545,"low":73.007,"close":73.617,"volume":602948},{"time":1780488000,"open":74.10775,"high":74.4064,"low":72.276,"close":72.938,"volume":546457},{"time":1780531200,"open":73.179,"high":74.919,"low":72.687,"close":74.168,"volume":622571},{"time":1780574400,"open":74.4555,"high":74.9778,"low":72.353,"close":72.468,"volume":513035},{"time":1780617600,"open":73.183,"high":73.4015,"low":69.418,"close":69.449,"volume":697305},{"time":1780660800,"open":71.38745,"high":71.39945,"low":67.398,"close":67.584,"volume":859793},{"time":1780833600,"open":67.69915,"high":68.3975,"low":66.769,"close":67.662,"volume":273460},{"time":1780876800,"open":68.2495,"high":68.8387,"low":66.007,"close":67.788,"volume":968041},{"time":1780920000,"open":68.788,"high":68.8499,"low":67.285,"close":67.862,"volume":750193},{"time":1780963200,"open":67.637,"high":68.879,"low":67.322,"close":67.843,"volume":653152},{"time":1781006400,"open":68.5717,"high":68.9457,"low":63.638,"close":64.509,"volume":1337119},{"time":1781049600,"open":64.5715,"high":65.668,"low":63.206,"close":65.444,"volume":1141385},{"time":1781092800,"open":64.1755,"high":65.6661,"low":61.329,"close":63.891,"volume":1324650},{"time":1781136000,"open":63.482,"high":64.663,"low":62.619,"close":63.877,"volume":967154},{"time":1781179200,"open":63.3555,"high":67.8755,"low":63.28,"close":66.733,"volume":1218813},{"time":1781222400,"open":67.2595,"high":67.4705,"low":65.721,"close":66.107,"volume":883278},{"time":1781265600,"open":66.4035,"high":68.2675,"low":66.046,"close":67.824,"volume":739565},{"time":1781438400,"open":69.367,"high":70.466,"low":67.821,"close":70.071,"volume":185906},{"time":1781481600,"open":69.967,"high":71.159,"low":69.737,"close":70.904,"volume":515223},{"time":1781524800,"open":71.09775,"high":71.234,"low":69.114,"close":69.183,"volume":442584},{"time":1781568000,"open":69.7605,"high":71.181,"low":68.914,"close":70.03,"volume":468742},{"time":1781611200,"open":71.064,"high":71.1135,"low":69.25,"close":70.311,"volume":617879},{"time":1781654400,"open":70.0975,"high":70.4385,"low":69.333,"close":69.964,"volume":461021},{"time":1781697600,"open":69.8645,"high":71.4716,"low":66.635,"close":69.196,"volume":1061826},{"time":1781740800,"open":69.029,"high":69.762,"low":66.177,"close":66.779,"volume":672186},{"time":1781784000,"open":66.3665,"high":67.4789,"low":64.783,"close":64.852,"volume":668605},{"time":1781827200,"open":65.235,"high":65.343,"low":63.114,"close":64.55,"volume":496663},{"time":1781870400,"open":65.2585,"high":65.2975,"low":64.031,"close":64.664,"volume":122841},{"time":1782043200,"open":64.48325,"high":67.01,"low":64.068,"close":65.718,"volume":184323},{"time":1782086400,"open":66.22445,"high":67.076,"low":65.267,"close":66.362,"volume":507978},{"time":1782129600,"open":66.144,"high":66.793,"low":63.644,"close":63.897,"volume":618473},{"time":1782172800,"open":64.839,"high":65.1047,"low":61.493,"close":62.226,"volume":747013},{"time":1782216000,"open":61.81,"high":62.40615,"low":60.579,"close":61.522,"volume":607862},{"time":1782259200,"open":61.4445,"high":62.347,"low":57.847,"close":59.342,"volume":690387},{"time":1782302400,"open":58.0805,"high":59.5215,"low":55.423,"close":56.696,"volume":840548},{"time":1782345600,"open":57.161,"high":58.87,"low":56.186,"close":56.848,"volume":822459},{"time":1782388800,"open":58.1045,"high":58.9335,"low":56.707,"close":56.992,"volume":790325},{"time":1782432000,"open":57.5635,"high":59.084,"low":55.54,"close":58.772,"volume":642652},{"time":1782475200,"open":58.8035,"high":59.52,"low":57.8985,"close":58.439,"volume":415553},{"time":1782648000,"open":59.05735,"high":59.307,"low":57.895,"close":58.168,"volume":210355},{"time":1782691200,"open":58.568,"high":59.073,"low":57.261,"close":57.994,"volume":701931},{"time":1782734400,"open":58.28,"high":58.6685,"low":56.437,"close":57.255,"volume":459775},{"time":1782777600,"open":57.427,"high":59.52125,"low":56.512,"close":59.068,"volume":534414},{"time":1782820800,"open":58.241,"high":60.348,"low":57.337,"close":57.529,"volume":397582},{"time":1782864000,"open":58.3985,"high":60.557,"low":57.005,"close":60.139,"volume":469290},{"time":1782907200,"open":58.722,"high":60.9148,"low":58.2333,"close":59.618,"volume":464199},{"time":1782950400,"open":59.3715,"high":61.987,"low":59.144,"close":61.698,"volume":543559},{"time":1782993600,"open":61.074,"high":62.32,"low":60.195,"close":62.055,"volume":572093},{"time":1783036800,"open":61.3395,"high":62.8045,"low":61.2061,"close":62.066,"volume":353036},{"time":1783080000,"open":62.314,"high":62.432,"low":61.8215,"close":62.299,"volume":102467},{"time":1783252800,"open":62.7835,"high":63.184,"low":62.209,"close":62.252,"volume":165159},{"time":1783296000,"open":62.5995,"high":63.0255,"low":61.203,"close":61.667,"volume":392080},{"time":1783339200,"open":61.53585,"high":62.258,"low":60.755,"close":61.374,"volume":328781},{"time":1783382400,"open":61.382,"high":61.771,"low":60.148,"close":61.161,"volume":458590},{"time":1783425600,"open":61.549,"high":61.7732,"low":59.282,"close":59.852,"volume":594362},{"time":1783468800,"open":60.024,"high":60.967,"low":57.898,"close":58.272,"volume":742434},{"time":1783512000,"open":58.468,"high":58.8885,"low":57.059,"close":58.049,"volume":602375},{"time":1783555200,"open":58.2305,"high":60.165,"low":57.431,"close":60.088,"volume":540074},{"time":1783598400,"open":59.232,"high":60.5259,"low":59.123,"close":59.962,"volume":362329},{"time":1783641600,"open":60.0935,"high":60.6775,"low":59.114,"close":59.566,"volume":399984},{"time":1783684800,"open":59.549,"high":59.9695,"low":58.7862,"close":59.618,"volume":258077},{"time":1783857600,"open":58.89045,"high":59.646,"low":58.269,"close":58.337,"volume":177892},{"time":1783900800,"open":58.709,"high":59.04565,"low":57.55,"close":58.027,"volume":457923},{"time":1783944000,"open":58.595,"high":58.6305,"low":56.707,"close":57.266,"volume":536895},{"time":1783987200,"open":57.3995,"high":59.5705,"low":56.776,"close":58.926,"volume":521967},{"time":1784030400,"open":58.91235,"high":59.588,"low":58.236,"close":58.268,"volume":442723},{"time":1784073600,"open":58.856,"high":58.983,"low":57.645,"close":58.182,"volume":535361},{"time":1784116800,"open":58.5505,"high":58.7594,"low":56.453,"close":56.935,"volume":570165},{"time":1784160000,"open":57.3725,"high":57.51,"low":55.288,"close":55.561,"volume":489878},{"time":1784203200,"open":55.75095,"high":56.452,"low":54.889,"close":55.062,"volume":490721},{"time":1784246400,"open":55.6705,"high":55.993,"low":54.612,"close":55.639,"volume":532956},{"time":1784289600,"open":54.997,"high":56.181,"low":54.768,"close":55.705,"volume":448978},{"time":1784462400,"open":55.5387,"high":56.715,"low":55.354,"close":56.494,"volume":168575},{"time":1784505600,"open":56.5109,"high":57.39315,"low":56.217,"close":56.613,"volume":524221},{"time":1784548800,"open":56.661,"high":57.0915,"low":55.952,"close":56.753,"volume":464852},{"time":1784592000,"open":56.816,"high":59.1585,"low":56.65,"close":58.276,"volume":512079},{"time":1784635200,"open":58.794,"high":59.813,"low":58.1575,"close":59.799,"volume":368379},{"time":1784678400,"open":59.111,"high":60.399,"low":58.739,"close":60.339,"volume":452382},{"time":1784721600,"open":58.96755,"high":60.844,"low":58.9155,"close":59.36,"volume":413449},{"time":1784764800,"open":59.7715,"high":59.98485,"low":56.9,"close":57.462,"volume":488807},{"time":1784808000,"open":57.548,"high":57.9525,"low":56.965,"close":57.494,"volume":384229},{"time":1784851200,"open":57.75,"high":58.549,"low":56.93,"close":58.203,"volume":389726},{"time":1784894400,"open":58.3085,"high":58.89575,"low":57.7535,"close":58.105,"volume":299788}], <tr><td>2026-07-10T00:00:00</td><td>60.0935</td><td>60.6775</td><td>59.114</td><td>59.566</td><td>399984</td></tr>
+<tr><td>2026-07-10T12:00:00</td><td>59.549</td><td>59.9695</td><td>58.7862</td><td>59.618</td><td>258077</td></tr>
+<tr><td>2026-07-12T12:00:00</td><td>58.89045</td><td>59.646</td><td>58.269</td><td>58.337</td><td>177892</td></tr>
+<tr><td>2026-07-13T00:00:00</td><td>58.709</td><td>59.04565</td><td>57.55</td><td>58.027</td><td>457923</td></tr>
+<tr><td>2026-07-13T12:00:00</td><td>58.595</td><td>58.6305</td><td>56.707</td><td>57.266</td><td>536895</td></tr>
+<tr><td>2026-07-14T00:00:00</td><td>57.3995</td><td>59.5705</td><td>56.776</td><td>58.926</td><td>521967</td></tr>
+<tr><td>2026-07-14T12:00:00</td><td>58.91235</td><td>59.588</td><td>58.236</td><td>58.268</td><td>442723</td></tr>
+<tr><td>2026-07-15T00:00:00</td><td>58.856</td><td>58.983</td><td>57.645</td><td>58.182</td><td>535361</td></tr>
+<tr><td>2026-07-15T12:00:00</td><td>58.5505</td><td>58.7594</td><td>56.453</td><td>56.935</td><td>570165</td></tr>
+<tr><td>2026-07-16T00:00:00</td><td>57.3725</td><td>57.51</td><td>55.288</td><td>55.561</td><td>489878</td></tr>
+<tr><td>2026-07-16T12:00:00</td><td>55.75095</td><td>56.452</td><td>54.889</td><td>55.062</td><td>490721</td></tr>
+<tr><td>2026-07-17T00:00:00</td><td>55.6705</td><td>55.993</td><td>54.612</td><td>55.639</td><td>532956</td></tr>
+<tr><td>2026-07-17T12:00:00</td><td>54.997</td><td>56.181</td><td>54.768</td><td>55.705</td><td>448978</td></tr>
+<tr><td>2026-07-19T12:00:00</td><td>55.5387</td><td>56.715</td><td>55.354</td><td>56.494</td><td>168575</td></tr>
+<tr><td>2026-07-20T00:00:00</td><td>56.5109</td><td>57.39315</td><td>56.217</td><td>56.613</td><td>524221</td></tr>
+<tr><td>2026-07-20T12:00:00</td><td>56.661</td><td>57.0915</td><td>55.952</td><td>56.753</td><td>464852</td></tr>
+<tr><td>2026-07-21T00:00:00</td><td>56.816</td><td>59.1585</td><td>56.65</td><td>58.276</td><td>512079</td></tr>
+<tr><td>2026-07-21T12:00:00</td><td>58.794</td><td>59.813</td><td>58.1575</td><td>59.799</td><td>368379</td></tr>
+<tr><td>2026-07-22T00:00:00</td><td>59.111</td><td>60.399</td><td>58.739</td><td>60.339</td><td>452382</td></tr>
+<tr><td>2026-07-22T12:00:00</td><td>58.96755</td><td>60.844</td><td>58.9155</td><td>59.36</td><td>413449</td></tr>
+<tr><td>2026-07-23T00:00:00</td><td>59.7715</td><td>59.98485</td><td>56.9</td><td>57.462</td><td>488807</td></tr>
+<tr><td>2026-07-23T12:00:00</td><td>57.548</td><td>57.9525</td><td>56.965</td><td>57.494</td><td>384229</td></tr>
+<tr><td>2026-07-24T00:00:00</td><td>57.75</td><td>58.549</td><td>56.93</td><td>58.203</td><td>389726</td></tr>
+<tr><td>2026-07-24T12:00:00</td><td>58.3085</td><td>58.89575</td><td>57.7535</td><td>58.105</td><td>299788</td></tr>, false,
+  https://getdata.finance, https://getdata.finance/datasets/xagusd, https://getdata.finance/coverage/xagusd,
+  https://github.com/getdata-finance/xagusd-12h-ohlcv-metals-historical-data, https://raw.githubusercontent.com/getdata-finance/xagusd-12h-ohlcv-metals-historical-data/main/XAGUSD_12h.csv, https://getdata-finance.github.io/xagusd-12h-ohlcv-metals-historical-data/,
+  9, 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>XAGUSD 12h OHLCV Metals Historical Data — Free Sample</title>
+  <meta name="description" content="XAGUSD 12h OHLCV metals — free sample candlestick chart. Full historical data on getdata.finance.">
+  <link rel="canonical" href="https://getdata-finance.github.io/xagusd-12h-ohlcv-metals-historical-data/">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+  <style>
+    :root {
+      --accent:       #c8cdd3;
+      --accent-hi:    #e8eaed;
+      --accent-dim:   rgba(200, 205, 211, 0.14);
+      --accent-border:rgba(200, 205, 211, 0.38);
+      --bg-0:  #080808;
+      --bg-1:  #0e0e0e;
+      --bg-2:  #141414;
+      --bg-3:  #1a1a1a;
+      --line-0: rgba(255,255,255,0.06);
+      --line-1: rgba(255,255,255,0.10);
+      --line-2: rgba(255,255,255,0.16);
+      --silver-ring: linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.38) 0%,
+        rgba(200, 205, 211, 0.26) 24%,
+        rgba(90, 98, 110, 0.16) 50%,
+        rgba(200, 205, 211, 0.3) 76%,
+        rgba(255, 255, 255, 0.22) 100%
+      );
+      --surface-ring-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.05),
+        0 28px 56px -16px rgba(0, 0, 0, 0.72),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      --text-hi:  #f2f2f2;
+      --text-mid: rgba(242,242,242,0.65);
+      --text-lo:  rgba(242,242,242,0.38);
+      --font-sans: 'Clash Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-display: 'Clash Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'SFMono-Regular', 'Fira Code', ui-monospace, monospace;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --up: #00c853;
+      --down: #ff1744;
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    html, body { min-height: 100%; }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg-0);
+      color: var(--text-hi);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection { background: var(--accent); color: #080808; }
+    a { color: var(--accent); text-decoration: none; transition: color 0.18s var(--ease-out); }
+    a:hover { color: var(--accent-hi); }
+
+    .page-bg {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(200, 205, 211, 0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 60% 40% at 80% 60%, rgba(200, 205, 211, 0.04) 0%, transparent 50%),
+        var(--bg-0);
+    }
+
+    .page-bg::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 140%;
+      height: 140%;
+      min-width: 900px;
+      min-height: 900px;
+      border-radius: 50%;
+      background: conic-gradient(
+        from 0deg,
+        rgba(200,205,211,0.12) 0%,
+        transparent 6%,
+        transparent 62%,
+        rgba(200,205,211,0.03) 78%,
+        rgba(200,205,211,0.08) 94%,
+        rgba(200,205,211,0.12) 100%
+      );
+      animation: bg-spin 18s linear infinite;
+      filter: blur(2px);
+      opacity: 0.6;
+    }
+
+    @keyframes bg-spin {
+      from { transform: translate(-50%, -50%) rotate(0deg); }
+      to   { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .page-bg::before { animation: none; }
+      .hero { animation: none; }
+    }
+
+    .shell {
+      position: relative;
+      z-index: 1;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 clamp(1.25rem, 4vw, 2.5rem) 3rem;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 0 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .brand {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.125rem;
+      letter-spacing: -0.02em;
+      color: var(--text-hi);
+      text-transform: lowercase;
+    }
+
+    .brand span {
+      color: var(--text-lo);
+      font-weight: 500;
+      margin-left: 0.15rem;
+    }
+
+    .topbar-links {
+      display: flex;
+      gap: 1.25rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+    }
+
+    .topbar-links a { color: var(--text-mid); }
+    .topbar-links a:hover { color: var(--accent); }
+
+    .hero {
+      margin-bottom: 2rem;
+      animation: hero-enter 0.75s var(--ease-out) both;
+    }
+
+    @keyframes hero-enter {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.3rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--line-1);
+      font-family: var(--font-display);
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-mid);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .pill.sym {
+      background: var(--accent-dim);
+      color: var(--accent);
+      border-color: var(--accent-border);
+    }
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.08;
+      margin: 0 0 0.75rem;
+      max-width: 22ch;
+      background: linear-gradient(180deg, #ffffff 15%, #c8cdd3 55%, #8f96a3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .lead {
+      color: var(--text-mid);
+      max-width: 62ch;
+      margin: 0;
+      font-size: clamp(0.9rem, 1.4vw, 1.02rem);
+      line-height: 1.65;
+    }
+
+    .lead strong { color: var(--text-hi); font-weight: 600; }
+
+    .update-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 1rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--text-mid);
+    }
+
+    .update-badge::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--up);
+      box-shadow: 0 0 8px rgba(0, 200, 83, 0.5);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      height: 40px;
+      padding: 0 1.15rem;
+      border-radius: 9999px;
+      font-family: var(--font-display);
+      font-weight: 500;
+      font-size: 0.8125rem;
+      border: 1px solid transparent;
+      transition: all 0.18s var(--ease-out);
+      cursor: pointer;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(180deg, var(--accent-hi) 0%, var(--accent) 100%);
+      color: #0a0a0a;
+      border-color: rgba(255, 255, 255, 0.22);
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(180deg, #ffffff 0%, #d1d5db 100%);
+      color: #0a0a0a;
+      border-color: rgba(255, 255, 255, 0.35);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(200, 205, 211, 0.22);
+    }
+
+    .btn-ghost {
+      background: rgba(8, 8, 8, 0.35);
+      color: var(--text-hi);
+      border: 1px solid var(--accent-border);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.08),
+        0 8px 20px -12px rgba(0, 0, 0, 0.45);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(255, 255, 255, 0.96);
+      color: #000;
+      border-color: rgba(255, 255, 255, 0.85);
+      transform: translateY(-1px);
+    }
+
+    .stats {
+      display: grid;
+      gap: 1px;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      margin: 2rem 0;
+      border: 1px solid var(--line-0);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      background: var(--line-0);
+    }
+
+    .stat {
+      background: var(--bg-1);
+      padding: 1.1rem 1.15rem;
+      transition: background 0.18s var(--ease-out);
+    }
+
+    .stat:hover { background: var(--bg-2); }
+    .stat label {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+
+    .stat strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--text-hi);
+    }
+
+    .stat small {
+      display: block;
+      color: var(--text-lo);
+      font-size: 0.75rem;
+      margin-top: 0.2rem;
+    }
+
+    .panel-wrap {
+      position: relative;
+      padding: 1px;
+      border-radius: var(--radius-lg);
+      background: var(--silver-ring);
+      box-shadow: var(--surface-ring-shadow);
+      margin-bottom: 1.5rem;
+      isolation: isolate;
+      overflow: hidden;
+    }
+
+    .panel-wrap::after {
+      content: '';
+      position: absolute;
+      inset: 1px;
+      border-radius: calc(var(--radius-lg) - 1px);
+      pointer-events: none;
+      z-index: 2;
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.14),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.35);
+    }
+
+    .panel {
+      position: relative;
+      z-index: 1;
+      background: rgba(8, 8, 8, 0.92);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: calc(var(--radius-lg) - 1px);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.85rem 1.15rem;
+      border-bottom: 1px solid rgba(200, 205, 211, 0.1);
+      background: rgba(8, 8, 8, 0.55);
+    }
+
+    .panel-head h2 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-hi);
+      letter-spacing: -0.01em;
+    }
+
+    .panel-head .sub {
+      color: var(--text-lo);
+      font-size: 0.75rem;
+      margin-top: 0.15rem;
+    }
+
+    .ohlc-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 0.5rem 1.15rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      border-bottom: 1px solid rgba(200, 205, 211, 0.1);
+      background: rgba(8, 8, 8, 0.72);
+    }
+
+    .ohlc-bar span { color: var(--text-lo); }
+    .ohlc-bar b { color: var(--text-hi); font-weight: 500; }
+    .ohlc-bar .up { color: var(--up); }
+    .ohlc-bar .down { color: var(--down); }
+
+    #chart { width: 100%; height: 420px; background: var(--bg-0); }
+    #volume-chart { width: 100%; height: 100px; border-top: 1px solid rgba(200, 205, 211, 0.08); background: var(--bg-0); }
+
+    .banner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+      border-radius: var(--radius-lg);
+      background:
+        linear-gradient(135deg, rgba(200, 205, 211, 0.12) 0%, rgba(8, 8, 8, 0.95) 60%),
+        var(--bg-2);
+      border: 1px solid var(--accent-border);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.08),
+        0 16px 40px -16px rgba(0, 0, 0, 0.6);
+    }
+
+    .banner strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-hi);
+      margin-bottom: 0.35rem;
+      letter-spacing: -0.01em;
+    }
+
+    .banner p {
+      margin: 0;
+      color: var(--text-mid);
+      font-size: 0.9rem;
+      max-width: 50ch;
+      line-height: 1.6;
+    }
+
+    .banner .btn {
+      background: linear-gradient(180deg, var(--accent-hi) 0%, var(--accent) 100%);
+      color: #0a0a0a;
+      border-color: rgba(255, 255, 255, 0.22);
+      flex-shrink: 0;
+    }
+
+    .banner .btn:hover {
+      background: linear-gradient(180deg, #ffffff 0%, #d1d5db 100%);
+      color: #0a0a0a;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      max-height: 280px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.75rem;
+    }
+
+    th, td {
+      padding: 0.5rem 0.85rem;
+      text-align: left;
+      border-bottom: 1px solid var(--line-0);
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      font-family: var(--font-display);
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-hi);
+      font-weight: 600;
+      background: var(--bg-2);
+    }
+
+    td { color: var(--text-mid); }
+    td.num, th:nth-child(n+2) {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+    }
+
+    tbody tr:hover td { background: rgba(255,255,255,0.02); }
+
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--line-0);
+      font-size: 0.75rem;
+      color: var(--text-lo);
+      line-height: 1.8;
+    }
+
+    footer a { color: var(--text-mid); }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 640px) {
+      #chart { height: 300px; }
+      .topbar { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+      h1 { max-width: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand">GetData<span>· sample</span></div>
+      <nav class="topbar-links">
+        <a href="https://github.com/getdata-finance/xagusd-12h-ohlcv-metals-historical-data">GitHub</a>
+        <a href="https://getdata.finance/datasets/xagusd">getdata.finance</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="pill-row">
+        <span class="pill sym">XAGUSD</span>
+        <span class="pill">12H OHLCV</span>
+        <span class="pill">Metals</span>
+        <span class="pill">Weekly · Saturday 8am UTC+0</span>
+      </div>
+      <h1>Silver / US Dollar</h1>
+      <p class="lead">Global spot sessions — Asia, Europe and US coverage for precious metals trading. Free evaluation sample — <strong>327</strong> candles on GitHub; full archive <strong>9,677</strong> rows at <code>1m</code> on <a href="https://getdata.finance/datasets/xagusd">getdata.finance</a> with <strong>9</strong> timeframes (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W).</p>
+      <p class="update-badge">Data update every Saturday, 8am UTC+0</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://getdata.finance/datasets/xagusd">Get full dataset on getdata.finance</a>
+        <a class="btn btn-ghost" href="https://raw.githubusercontent.com/getdata-finance/xagusd-12h-ohlcv-metals-historical-data/main/XAGUSD_12h.csv">Download sample CSV</a>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="stat"><label>Sample rows</label><strong>327</strong><small>2026-01-05 -> 2026-07-31</small></div>
+      <div class="stat"><label>Full archive</label><strong>9,677</strong><small>Production dataset</small></div>
+      <div class="stat"><label>Full period</label><strong style="font-size:1rem">2009-02-24</strong><small>-> 2026-07-31</small></div>
+      <div class="stat"><label>Updates</label><strong>Weekly</strong><small>Every Saturday, 8am UTC+0 · getdata.finance + GitHub</small></div>
+      <div class="stat"><label>Full timeframes</label><strong>9</strong><small>1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W</small></div>
+      <div class="stat"><label>Timeframe</label><strong>12H</strong><small>OHLCV CSV sample</small></div>
+    </div>
+
+    <div class="panel-wrap">
+      <section class="panel" aria-label="OHLC candlestick chart">
+        <div class="panel-head">
+          <div>
+            <h2>XAGUSD · candlestick preview</h2>
+            <div class="sub">Last 320 bars from the GitHub sample</div>
+          </div>
+        </div>
+        <div class="ohlc-bar" id="ohlcHover">
+          <span>O <b id="hO">—</b></span>
+          <span>H <b id="hH">—</b></span>
+          <span>L <b id="hL">—</b></span>
+          <span>C <b id="hC">—</b></span>
+          <span>Vol <b id="hV">—</b></span>
+          <span>Time <b id="hT">—</b></span>
+        </div>
+        <div id="chart"></div>
+        <div id="volume-chart"></div>
+      </section>
+    </div>
+
+    <aside class="banner">
+      <div>
+        <strong>Need the complete history?</strong>
+        <p>Download the full XAGUSD archive (9,677 rows at <code>1m</code>, 9 timeframes) on <a href="https://getdata.finance/datasets/xagusd">getdata.finance</a> — built for backtesting &amp; algo trading.</p>
+      </div>
+      <a class="btn" href="https://getdata.finance/datasets/xagusd">Open getdata.finance -></a>
+    </aside>
+
+    <div class="panel-wrap">
+      <section class="panel">
+        <div class="panel-head"><h2>Sample data</h2><span class="sub">XAGUSD_12h.csv</span></div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>datetime</th><th>open</th><th>high</th><th>low</th><th>close</th><th>volume</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>2026-07-10T00:00:00</td><td>60.0935</td><td>60.6775</td><td>59.114</td><td>59.566</td><td>399984</td></tr>
+<tr><td>2026-07-10T12:00:00</td><td>59.549</td><td>59.9695</td><td>58.7862</td><td>59.618</td><td>258077</td></tr>
+<tr><td>2026-07-12T12:00:00</td><td>58.89045</td><td>59.646</td><td>58.269</td><td>58.337</td><td>177892</td></tr>
+<tr><td>2026-07-13T00:00:00</td><td>58.709</td><td>59.04565</td><td>57.55</td><td>58.027</td><td>457923</td></tr>
+<tr><td>2026-07-13T12:00:00</td><td>58.595</td><td>58.6305</td><td>56.707</td><td>57.266</td><td>536895</td></tr>
+<tr><td>2026-07-14T00:00:00</td><td>57.3995</td><td>59.5705</td><td>56.776</td><td>58.926</td><td>521967</td></tr>
+<tr><td>2026-07-14T12:00:00</td><td>58.91235</td><td>59.588</td><td>58.236</td><td>58.268</td><td>442723</td></tr>
+<tr><td>2026-07-15T00:00:00</td><td>58.856</td><td>58.983</td><td>57.645</td><td>58.182</td><td>535361</td></tr>
+<tr><td>2026-07-15T12:00:00</td><td>58.5505</td><td>58.7594</td><td>56.453</td><td>56.935</td><td>570165</td></tr>
+<tr><td>2026-07-16T00:00:00</td><td>57.3725</td><td>57.51</td><td>55.288</td><td>55.561</td><td>489878</td></tr>
+<tr><td>2026-07-16T12:00:00</td><td>55.75095</td><td>56.452</td><td>54.889</td><td>55.062</td><td>490721</td></tr>
+<tr><td>2026-07-17T00:00:00</td><td>55.6705</td><td>55.993</td><td>54.612</td><td>55.639</td><td>532956</td></tr>
+<tr><td>2026-07-17T12:00:00</td><td>54.997</td><td>56.181</td><td>54.768</td><td>55.705</td><td>448978</td></tr>
+<tr><td>2026-07-19T12:00:00</td><td>55.5387</td><td>56.715</td><td>55.354</td><td>56.494</td><td>168575</td></tr>
+<tr><td>2026-07-20T00:00:00</td><td>56.5109</td><td>57.39315</td><td>56.217</td><td>56.613</td><td>524221</td></tr>
+<tr><td>2026-07-20T12:00:00</td><td>56.661</td><td>57.0915</td><td>55.952</td><td>56.753</td><td>464852</td></tr>
+<tr><td>2026-07-21T00:00:00</td><td>56.816</td><td>59.1585</td><td>56.65</td><td>58.276</td><td>512079</td></tr>
+<tr><td>2026-07-21T12:00:00</td><td>58.794</td><td>59.813</td><td>58.1575</td><td>59.799</td><td>368379</td></tr>
+<tr><td>2026-07-22T00:00:00</td><td>59.111</td><td>60.399</td><td>58.739</td><td>60.339</td><td>452382</td></tr>
+<tr><td>2026-07-22T12:00:00</td><td>58.96755</td><td>60.844</td><td>58.9155</td><td>59.36</td><td>413449</td></tr>
+<tr><td>2026-07-23T00:00:00</td><td>59.7715</td><td>59.98485</td><td>56.9</td><td>57.462</td><td>488807</td></tr>
+<tr><td>2026-07-23T12:00:00</td><td>57.548</td><td>57.9525</td><td>56.965</td><td>57.494</td><td>384229</td></tr>
+<tr><td>2026-07-24T00:00:00</td><td>57.75</td><td>58.549</td><td>56.93</td><td>58.203</td><td>389726</td></tr>
+<tr><td>2026-07-24T12:00:00</td><td>58.3085</td><td>58.89575</td><td>57.7535</td><td>58.105</td><td>299788</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      GetData · GitHub Pages sample ·
+      Weekly update every Saturday, 8am UTC+0 ·
+      <a href="https://getdata.finance/datasets/xagusd">Full data on getdata.finance</a> ·
+      Updated 2026-08-05 UTC ·
+      <a href="https://github.com/getdata-finance/xagusd-12h-ohlcv-metals-historical-data">Repository</a> ·
+      <a href="https://raw.githubusercontent.com/getdata-finance/xagusd-12h-ohlcv-metals-historical-data/main/XAGUSD_12h.csv">Raw CSV</a> ·
+      <a href="https://getdata.finance/coverage/xagusd">Coverage report</a>
+    </footer>
+  </div>
+
+  <script>
+    const BARS = [{"time":1767312000,"open":72.7245,"high":74.548,"low":71.708,"close":73.426,"volume":472934},{"time":1767355200,"open":73.7967,"high":74.3498,"low":71.272,"close":72.496,"volume":817145},{"time":1767528000,"open":73.25205,"high":76.345,"low":72.496,"close":75.4,"volume":232910},{"time":1767571200,"open":75.4625,"high":76.963,"low":74.431,"close":76.576,"volume":666741},{"time":1767614400,"open":75.53025,"high":77.868,"low":75.465,"close":77.575,"volume":774902},{"time":1767657600,"open":76.5902,"high":80.321,"low":76.4487,"close":80.232,"volume":673857},{"time":1767700800,"open":78.90815,"high":82.67815,"low":78.63795,"close":80.826,"volume":838917},{"time":1767744000,"open":80.31945,"high":81.45345,"low":76.473,"close":77.414,"volume":762680},{"time":1767787200,"open":77.4524,"high":78.94725,"low":76.207,"close":77.805,"volume":810207},{"time":1767830400,"open":78.531,"high":78.5365,"low":73.681,"close":74.347,"volume":793275},{"time":1767873600,"open":74.06365,"high":77.357,"low":73.74995,"close":76.803,"volume":817550},{"time":1767916800,"open":76.4764,"high":79.35,"low":75.962,"close":79.157,"volume":611514},{"time":1767960000,"open":78.2451,"high":80.43035,"low":78.1275,"close":79.787,"volume":535370},{"time":1768132800,"open":80.3035,"high":83.931,"low":79.735,"close":83.126,"volume":298732},{"time":1768176000,"open":82.8145,"high":85.705,"low":82.2605,"close":84.825,"volume":667600},{"time":1768219200,"open":85.5315,"high":86.174,"low":83.267,"close":85.341,"volume":783676},{"time":1768262400,"open":83.65105,"high":89.106,"low":83.6434,"close":88.67,"volume":629394},{"time":1768305600,"open":87.6363,"high":89.8688,"low":85.753,"close":89.529,"volume":992951},{"time":1768348800,"open":89.82385,"high":92.165,"low":89.043,"close":91.036,"volume":772265},{"time":1768392000,"open":91.702,"high":93.549,"low":86.272,"close":88.511,"volume":1258781},{"time":1768435200,"open":87.9009,"high":91.3974,"low":86.256,"close":90.214,"volume":879944},{"time":1768478400,"open":88.4417,"high":93.002,"low":87.84565,"close":89.872,"volume":1065685},{"time":1768521600,"open":91.0611,"high":91.79415,"low":87.504,"close":88.97,"volume":738173},{"time":1768564800,"open":88.7848,"high":90.0597,"low":86.69,"close":89.627,"volume":852931},{"time":1768737600,"open":91.79775,"high":94.038,"low":89.896,"close":93.113,"volume":344106},{"time":1768780800,"open":93.0987,"high":93.7711,"low":92.255,"close":93.666,"volume":445333},{"time":1768824000,"open":93.19345,"high":94.682,"low":92.569,"close":92.855,"volume":301761},{"time":1768867200,"open":93.06055,"high":95.809,"low":92.432,"close":94.757,"volume":707353},{"time":1768910400,"open":95.11675,"high":95.76705,"low":92.967,"close":93.974,"volume":1123833},{"time":1768953600,"open":94.34765,"high":95.2439,"low":93.186,"close":93.557,"volume":719762},{"time":1768996800,"open":94.89375,"high":95.019,"low":90.17,"close":92.613,"volume":1300769},{"time":1769040000,"open":92.1426,"high":94.368,"low":91.6438,"close":93.677,"volume":539584},{"time":1769083200,"open":93.448,"high":99.114,"low":93.23735,"close":98.607,"volume":1006406},{"time":1769126400,"open":98.51825,"high":99.752,"low":97.379,"close":99.134,"volume":608205},{"time":1769169600,"open":99.5134,"high":103.359,"low":98.8995,"close":102.793,"volume":805411},{"time":1769342400,"open":104.6398,"high":109.319,"low":102.793,"close":108.779,"volume":432140},{"time":1769385600,"open":107.5228,"high":111.332,"low":106.123,"close":111.091,"volume":1154184},{"time":1769428800,"open":108.99665,"high":117.723,"low":101.461,"close":110.265,"volume":2246515},{"time":1769472000,"open":110.09645,"high":113.4025,"low":105.972,"close":106.261,"volume":1418672},{"time":1769515200,"open":111.90075,"high":114.432,"low":104.814,"close":114.257,"volume":1596210},{"time":1769558400,"open":113.0781,"high":116.056,"low":111.083,"close":114.784,"volume":1081390},{"time":1769601600,"open":114.0469,"high":119.34945,"low":110.351,"close":117.528,"volume":1756235},{"time":1769644800,"open":117.8003,"high":121.559,"low":115.181,"close":119.136,"volume":1377015},{"time":1769688000,"open":119.1847,"high":121.57925,"low":106.554,"close":110.886,"volume":2169220},{"time":1769731200,"open":113.16555,"high":114.1703,"low":94.765,"close":99.236,"volume":1817437},{"time":1769774400,"open":97.9208,"high":101.51745,"low":73.21565,"close":84.429,"volume":1439802},{"time":1769947200,"open":81.7358,"high":87.86885,"low":76.64095,"close":80.435,"volume":488753},{"time":1769990400,"open":84.7058,"high":84.9008,"low":71.138,"close":78.366,"volume":1565156},{"time":1770033600,"open":81.5765,"high":85.595,"low":75.141,"close":81.515,"volume":1566626},{"time":1770076800,"open":84.3447,"high":89.167,"low":80.9645,"close":87.906,"volume":1277818},{"time":1770120000,"open":88.0411,"high":89.03,"low":82.531,"close":86.849,"volume":1538722},{"time":1770163200,"open":87.3353,"high":92.027,"low":86.21,"close":89.412,"volume":749890},{"time":1770206400,"open":91.5605,"high":92.11245,"low":73.709,"close":74.149,"volume":1506380},{"time":1770249600,"open":86.6013,"high":86.72725,"low":73.248,"close":76.22,"volume":1250041},{"time":1770292800,"open":75.9846,"high":77.8263,"low":63.905,"close":71.557,"volume":1386354},{"time":1770336000,"open":70.804,"high":76.38,"low":70.0145,"close":76.165,"volume":829660},{"time":1770379200,"open":75.4114,"high":78.107,"low":74.171,"close":77.504,"volume":507076},{"time":1770552000,"open":79.44995,"high":81.58395,"low":77.504,"close":80.772,"volume":267209},{"time":1770595200,"open":80.1768,"high":82.3992,"low":78.552,"close":81.443,"volume":612167},{"time":1770638400,"open":79.6746,"high":83.94095,"low":79.31955,"close":81.926,"volume":869461},{"time":1770681600,"open":82.0808,"high":82.967,"low":80.431,"close":82.017,"volume":534400},{"time":1770724800,"open":81.893,"high":82.9519,"low":79.809,"close":82.201,"volume":755942},{"time":1770768000,"open":81.91945,"high":86.256,"low":81.5213,"close":83.568,"volume":572605},{"time":1770811200,"open":84.6195,"high":85.41455,"low":81.375,"close":83.299,"volume":947164},{"time":1770854400,"open":83.33645,"high":84.14735,"low":81.726,"close":82.316,"volume":435831},{"time":1770897600,"open":82.95,"high":83.4418,"low":73.773,"close":76.986,"volume":1303980},{"time":1770940800,"open":76.6713,"high":79.299,"low":75.805,"close":77.187,"volume":612810},{"time":1770984000,"open":78.6065,"high":79.053,"low":75.9299,"close":77.117,"volume":700638},{"time":1771156800,"open":75.2886,"high":77.69,"low":74.45,"close":75.598,"volume":118296},{"time":1771200000,"open":77.2073,"high":77.36755,"low":74.59,"close":76.459,"volume":232467},{"time":1771243200,"open":76.8772,"high":77.0411,"low":72.948,"close":76.186,"volume":217287},{"time":1771286400,"open":75.6844,"high":76.4695,"low":71.966,"close":72.116,"volume":594136},{"time":1771329600,"open":72.9349,"high":74.6853,"low":71.865,"close":73.378,"volume":998763},{"time":1771372800,"open":73.37325,"high":77.717,"low":73.18895,"close":77.473,"volume":386534},{"time":1771416000,"open":76.58395,"high":78.253,"low":76.1,"close":77.026,"volume":755948},{"time":1771459200,"open":77.2086,"high":79.458,"low":76.888,"close":77.83,"volume":405356},{"time":1771502400,"open":78.26545,"high":79.068,"low":77.10035,"close":77.951,"volume":804829},{"time":1771545600,"open":78.2244,"high":81.795,"low":77.271,"close":81.49,"volume":358895},{"time":1771588800,"open":80.7155,"high":84.6585,"low":79.635,"close":84.227,"volume":841749},{"time":1771761600,"open":85.3367,"high":87.663,"low":84.227,"close":87.413,"volume":171922},{"time":1771804800,"open":86.76035,"high":87.872,"low":85.008,"close":87.105,"volume":389546},{"time":1771848000,"open":85.6591,"high":88.95475,"low":84.785,"close":87.294,"volume":890024},{"time":1771891200,"open":86.44305,"high":88.83925,"low":85.217,"close":86.955,"volume":672671},{"time":1771934400,"open":86.1042,"high":89.561,"low":85.305,"close":89.251,"volume":967556},{"time":1771977600,"open":88.20095,"high":91.16425,"low":88.1965,"close":90.452,"volume":588156},{"time":1772020800,"open":90.46595,"high":91.199,"low":87.052,"close":88.671,"volume":851521},{"time":1772064000,"open":89.50405,"high":89.9148,"low":85.513,"close":86.463,"volume":688607},{"time":1772107200,"open":87.0727,"high":89.918,"low":85.075,"close":89.669,"volume":882911},{"time":1772150400,"open":89.42045,"high":92.647,"low":88.918,"close":91.494,"volume":628218},{"time":1772193600,"open":92.1279,"high":94.06505,"low":90.8762,"close":93.638,"volume":860905},{"time":1772366400,"open":95.6048,"high":96.33305,"low":91.863,"close":93.82,"volume":444205},{"time":1772409600,"open":92.1669,"high":96.146,"low":88.111,"close":89.79,"volume":993826},{"time":1772452800,"open":93.79785,"high":93.80285,"low":86.337,"close":89.921,"volume":1214585},{"time":1772496000,"open":88.6069,"high":90.2254,"low":77.752,"close":79.35,"volume":1351064},{"time":1772539200,"open":82.16035,"high":85.333,"low":79.07585,"close":83.89,"volume":1254488},{"time":1772582400,"open":84.29945,"high":86.74675,"low":83.022,"close":83.337,"volume":830974},{"time":1772625600,"open":84.64975,"high":85.1861,"low":82.07,"close":84.996,"volume":865821},{"time":1772668800,"open":84.25025,"high":85.46,"low":80.346,"close":82.497,"volume":832449},{"time":1772712000,"open":82.528,"high":84.3386,"low":80.505,"close":83.638,"volume":1159938},{"time":1772755200,"open":83.99575,"high":84.66025,"low":81.51,"close":83.614,"volume":782424},{"time":1772798400,"open":82.4755,"high":84.899,"low":82.3055,"close":84.174,"volume":897850},{"time":1772971200,"open":84.0693,"high":84.951,"low":79.482,"close":80.905,"volume":332423},{"time":1773014400,"open":81.365,"high":85.024,"low":79.55815,"close":83.334,"volume":931289},{"time":1773057600,"open":83.605,"high":89.386,"low":82.936,"close":89.272,"volume":1053954},{"time":1773100800,"open":86.8775,"high":89.9282,"low":86.5121,"close":88.639,"volume":691405},{"time":1773144000,"open":88.53025,"high":89.63005,"low":86.7787,"close":88.355,"volume":801022},{"time":1773187200,"open":89.13485,"high":89.3545,"low":84.292,"close":85.075,"volume":695989},{"time":1773230400,"open":85.2103,"high":86.1295,"low":83.829,"close":85.298,"volume":719501},{"time":1773273600,"open":85.5494,"high":87.3195,"low":84.193,"close":85.753,"volume":637859},{"time":1773316800,"open":87.2212,"high":87.367,"low":82.867,"close":84.655,"volume":994399},{"time":1773360000,"open":85.0056,"high":85.36955,"low":81.461,"close":83.379,"volume":788991},{"time":1773403200,"open":84.187,"high":84.3944,"low":79.275,"close":80.336,"volume":975194},{"time":1773576000,"open":79.89635,"high":81.4778,"low":78.345,"close":80.21,"volume":307888},{"time":1773619200,"open":81.3839,"high":81.48,"low":76.97,"close":81.098,"volume":853183},{"time":1773662400,"open":80.15515,"high":81.55125,"low":79.354,"close":81.293,"volume":885295},{"time":1773705600,"open":80.3139,"high":82.46175,"low":79.7637,"close":81.092,"volume":579893},{"time":1773748800,"open":80.5871,"high":81.32395,"low":78.141,"close":78.998,"volume":748710},{"time":1773792000,"open":79.339,"high":80.1079,"low":75.426,"close":77.291,"volume":784018},{"time":1773835200,"open":77.4757,"high":77.844,"low":74.846,"close":75.992,"volume":969546},{"time":1773878400,"open":76.34185,"high":76.60845,"low":65.313,"close":69.416,"volume":1263596},{"time":1773921600,"open":67.2695,"high":74.389,"low":65.39665,"close":73.637,"volume":1333558},{"time":1773964800,"open":72.42045,"high":74.4701,"low":69.79,"close":70.065,"volume":1005582},{"time":1774008000,"open":71.78815,"high":72.1701,"low":67.514,"close":67.862,"volume":1122748},{"time":1774180800,"open":67.1634,"high":69.50385,"low":64.618,"close":65.944,"volume":441238},{"time":1774224000,"open":66.2529,"high":69.653,"low":60.815,"close":68.813,"volume":2049257},{"time":1774267200,"open":69.3348,"high":70.766,"low":66.309,"close":66.658,"volume":1632434},{"time":1774310400,"open":68.0842,"high":70.442,"low":65.827,"close":68.291,"volume":1372542},{"time":1774353600,"open":68.387,"high":74.407,"low":67.6067,"close":73.741,"volume":1232954},{"time":1774396800,"open":73.6415,"high":74.4795,"low":71.775,"close":72.093,"volume":915630},{"time":1774440000,"open":72.655,"high":73.26,"low":70.208,"close":71.712,"volume":1042055},{"time":1774483200,"open":71.87445,"high":72.14,"low":66.762,"close":69.08,"volume":1076140},{"time":1774526400,"open":67.3606,"high":69.6418,"low":66.538,"close":68.465,"volume":1087793},{"time":1774569600,"open":67.4891,"high":70.28535,"low":67.32935,"close":67.805,"volume":819710},{"time":1774612800,"open":67.911,"high":71.5505,"low":67.453,"close":69.789,"volume":790268},{"time":1774785600,"open":69.31915,"high":69.789,"low":67.507,"close":68.665,"volume":378822},{"time":1774828800,"open":68.27465,"high":71.734,"low":68.16235,"close":70.086,"volume":937079},{"time":1774872000,"open":71.26185,"high":73.386,"low":68.854,"close":72.734,"volume":950468},{"time":1774915200,"open":70.57745,"high":73.4215,"low":70.35075,"close":73.195,"volume":977506},{"time":1774958400,"open":72.7635,"high":75.555,"low":72.4415,"close":74.418,"volume":920299},{"time":1775001600,"open":75.0525,"high":75.55395,"low":73.606,"close":74.556,"volume":724527},{"time":1775044800,"open":74.59795,"high":76.3271,"low":72.153,"close":72.832,"volume":835853},{"time":1775088000,"open":75.452,"high":75.49945,"low":69.383,"close":71.257,"volume":997783},{"time":1775131200,"open":70.02985,"high":73.044,"low":69.472,"close":72.802,"volume":733542},{"time":1775174400,"open":72.802,"high":72.812,"low":72.802,"close":72.812,"volume":3},{"time":1775390400,"open":71.99105,"high":72.812,"low":70.929,"close":71.758,"volume":171586},{"time":1775433600,"open":72.169,"high":73.484,"low":71.548,"close":72.538,"volume":507061},{"time":1775476800,"open":72.9969,"high":73.3,"low":71.396,"close":71.932,"volume":672450},{"time":1775520000,"open":72.4805,"high":73.274,"low":71.051,"close":71.099,"volume":756316},{"time":1775563200,"open":71.8025,"high":77.0921,"low":69.639,"close":76.375,"volume":1084947},{"time":1775606400,"open":76.5782,"high":77.56,"low":75.90595,"close":76.312,"volume":618628},{"time":1775649600,"open":77.31805,"high":77.50395,"low":72.704,"close":73.7,"volume":797620},{"time":1775692800,"open":73.46115,"high":75.212,"low":72.7895,"close":74.87,"volume":528294},{"time":1775736000,"open":74.335,"high":76.622,"low":74.055,"close":75.39,"volume":825542},{"time":1775779200,"open":75.3355,"high":76.407,"low":74.663,"close":76.133,"volume":530341},{"time":1775822400,"open":75.8095,"high":76.745,"low":75.559,"close":76.034,"volume":495116},{"time":1775995200,"open":73.4941,"high":76.034,"low":72.407,"close":74.193,"volume":202465},{"time":1776038400,"open":74.39,"high":74.81375,"low":73.409,"close":74.077,"volume":535495},{"time":1776081600,"open":73.8293,"high":76.276,"low":73.479,"close":75.672,"volume":749244},{"time":1776124800,"open":75.872,"high":78.31,"low":75.646,"close":78.135,"volume":587715},{"time":1776168000,"open":77.4085,"high":80.722,"low":77.3615,"close":80.353,"volume":770423},{"time":1776211200,"open":79.59,"high":80.93145,"low":78.073,"close":79.867,"volume":711001},{"time":1776254400,"open":78.5238,"high":80.46,"low":78.5205,"close":79.929,"volume":826509},{"time":1776297600,"open":80.0538,"high":80.7725,"low":78.101,"close":78.533,"volume":552970},{"time":1776340800,"open":79.157,"high":79.69695,"low":77.595,"close":78.268,"volume":919546},{"time":1776384000,"open":78.65,"high":82.332,"low":77.6855,"close":82.195,"volume":617181},{"time":1776427200,"open":81.46,"high":82.982,"low":80.6955,"close":80.823,"volume":843178},{"time":1776600000,"open":79.3069,"high":80.601,"low":78.451,"close":80.38,"volume":217241},{"time":1776643200,"open":79.7715,"high":80.5885,"low":78.911,"close":80.108,"volume":597043},{"time":1776686400,"open":79.5225,"high":80.3485,"low":79.012,"close":79.263,"volume":650076},{"time":1776729600,"open":79.794,"high":79.855,"low":77.963,"close":78.591,"volume":529825},{"time":1776772800,"open":78.679,"high":78.9565,"low":75.24,"close":77.445,"volume":1089112},{"time":1776816000,"open":77.36775,"high":78.589,"low":77.248,"close":77.99,"volume":500516},{"time":1776859200,"open":77.5885,"high":78.308,"low":76.221,"close":76.861,"volume":709710},{"time":1776902400,"open":78.07525,"high":78.24105,"low":74.071,"close":75.737,"volume":773394},{"time":1776945600,"open":76.716,"high":76.85875,"low":74.448,"close":75.443,"volume":1069884},{"time":1776988800,"open":75.68225,"high":76.166,"low":73.785,"close":75.599,"volume":702863},{"time":1777032000,"open":75.48005,"high":76.596,"low":75.129,"close":75.616,"volume":740545},{"time":1777204800,"open":75.42435,"high":75.885,"low":74.558,"close":75.273,"volume":143976},{"time":1777248000,"open":75.56195,"high":76.4932,"low":74.844,"close":75.341,"volume":518206},{"time":1777291200,"open":75.418,"high":76.0675,"low":74.463,"close":74.48,"volume":524781},{"time":1777334400,"open":75.6011,"high":75.701,"low":71.874,"close":72.741,"volume":716660},{"time":1777377600,"open":73.392,"high":73.745,"low":72.056,"close":73.11,"volume":725788},{"time":1777420800,"open":73.1185,"high":73.8665,"low":71.139,"close":71.451,"volume":592191},{"time":1777464000,"open":71.957,"high":72.818,"low":70.695,"close":72.729,"volume":796807},{"time":1777507200,"open":71.998,"high":73.8295,"low":71.429,"close":72.801,"volume":647871},{"time":1777550400,"open":73.448,"high":74.524,"low":72.663,"close":74.024,"volume":681048},{"time":1777593600,"open":74.069,"high":76.232,"low":72.803,"close":76.086,"volume":394528},{"time":1777636800,"open":74.1175,"high":76.931,"low":74.102,"close":75.238,"volume":541425},{"time":1777809600,"open":75.6992,"high":75.9045,"low":74.86,"close":75.555,"volume":128033},{"time":1777852800,"open":75.5165,"high":75.7335,"low":72.039,"close":73.719,"volume":621351},{"time":1777896000,"open":73.651,"high":74.576,"low":72.245,"close":72.716,"volume":822640},{"time":1777939200,"open":72.6875,"high":74.11,"low":72.474,"close":73.526,"volume":384428},{"time":1777982400,"open":73.3525,"high":74.986,"low":72.467,"close":74.652,"volume":468404},{"time":1778025600,"open":74.367,"high":77.727,"low":74.1465,"close":77.167,"volume":746373},{"time":1778068800,"open":76.781,"high":78.277,"low":76.335,"close":77.899,"volume":609370},{"time":1778112000,"open":77.084,"high":81.605,"low":76.9078,"close":81.129,"volume":619047},{"time":1778155200,"open":81.402,"high":82.03945,"low":78.125,"close":79.772,"volume":1084894},{"time":1778198400,"open":79.0265,"high":81.471,"low":79.00545,"close":81.336,"volume":729337},{"time":1778241600,"open":81.0353,"high":81.48175,"low":79.713,"close":80.213,"volume":532104},{"time":1778414400,"open":79.2873,"high":80.679,"low":78.881,"close":80.64,"volume":199876},{"time":1778457600,"open":79.9295,"high":85.705,"low":79.4736,"close":85.357,"volume":775758},{"time":1778500800,"open":83.5452,"high":87.12365,"low":83.41495,"close":85.877,"volume":750626},{"time":1778544000,"open":85.939,"high":87,"low":82.906,"close":84.334,"volume":904742},{"time":1778587200,"open":84.36215,"high":87.636,"low":82.89,"close":86.577,"volume":997187},{"time":1778630400,"open":87.1084,"high":87.7165,"low":85.449,"close":86.947,"volume":792651},{"time":1778673600,"open":86.306,"high":89.2872,"low":86.306,"close":87.191,"volume":846418},{"time":1778716800,"open":87.97835,"high":88.36125,"low":83.669,"close":83.784,"volume":735146},{"time":1778760000,"open":86.4675,"high":86.66885,"low":80.456,"close":80.634,"volume":737102},{"time":1778803200,"open":82.4147,"high":82.4658,"low":75.608,"close":76.271,"volume":1188962},{"time":1778846400,"open":77.1213,"high":77.354,"low":75.568,"close":75.852,"volume":737384},{"time":1779019200,"open":75.87995,"high":76.83845,"low":73.71,"close":74.712,"volume":356298},{"time":1779062400,"open":75.3298,"high":78.036,"low":73.7709,"close":77.687,"volume":976591},{"time":1779105600,"open":77.3741,"high":78.80245,"low":75.968,"close":76.961,"volume":793947},{"time":1779148800,"open":77.445,"high":77.6865,"low":72.929,"close":74.228,"volume":871969},{"time":1779192000,"open":75.9482,"high":75.96045,"low":72.9994,"close":74.037,"volume":834514},{"time":1779235200,"open":74.553,"high":75.72,"low":72.953,"close":74.688,"volume":775474},{"time":1779278400,"open":75.415,"high":76.795,"low":74.262,"close":76.205,"volume":757137},{"time":1779321600,"open":76.0205,"high":76.866,"low":74.247,"close":75.27,"volume":923376},{"time":1779364800,"open":74.631,"high":77.0305,"low":74.32335,"close":76.273,"volume":786347},{"time":1779408000,"open":76.1375,"high":76.95,"low":75.264,"close":75.817,"volume":649105},{"time":1779451200,"open":76.10905,"high":76.3975,"low":74.81,"close":75.274,"volume":527565},{"time":1779624000,"open":77.012,"high":78.7335,"low":75.332,"close":77.678,"volume":189756},{"time":1779667200,"open":78.10795,"high":78.4957,"low":77.14,"close":77.442,"volume":497634},{"time":1779710400,"open":77.7426,"high":78.411,"low":75.558,"close":76.269,"volume":348530},{"time":1779753600,"open":77.4938,"high":77.51165,"low":75.328,"close":75.808,"volume":594459},{"time":1779796800,"open":76.152,"high":77.479,"low":75.668,"close":76.611,"volume":419620},{"time":1779840000,"open":77.102,"high":77.3945,"low":73.264,"close":74.392,"volume":659852},{"time":1779883200,"open":74.2855,"high":74.992,"low":72.855,"close":72.95,"volume":441698},{"time":1779926400,"open":74.8255,"high":74.878,"low":71.631,"close":73.175,"volume":617515},{"time":1779969600,"open":74.064,"high":76.325,"low":72.994,"close":75.84,"volume":476415},{"time":1780012800,"open":75.5655,"high":76.345,"low":74.808,"close":75.312,"volume":473987},{"time":1780056000,"open":75.59035,"high":76.593,"low":74.425,"close":75.221,"volume":462828},{"time":1780228800,"open":74.3671,"high":75.693,"low":73.892,"close":75.39,"volume":126600},{"time":1780272000,"open":75.488,"high":76.2035,"low":73.683,"close":73.734,"volume":540381},{"time":1780315200,"open":75.712,"high":75.845,"low":73.663,"close":74.669,"volume":510199},{"time":1780358400,"open":74.843,"high":76.92065,"low":74.38845,"close":75.701,"volume":504529},{"time":1780401600,"open":76.009,"high":76.46515,"low":73.879,"close":74.584,"volume":449544},{"time":1780444800,"open":75.0626,"high":75.1545,"low":73.007,"close":73.617,"volume":602948},{"time":1780488000,"open":74.10775,"high":74.4064,"low":72.276,"close":72.938,"volume":546457},{"time":1780531200,"open":73.179,"high":74.919,"low":72.687,"close":74.168,"volume":622571},{"time":1780574400,"open":74.4555,"high":74.9778,"low":72.353,"close":72.468,"volume":513035},{"time":1780617600,"open":73.183,"high":73.4015,"low":69.418,"close":69.449,"volume":697305},{"time":1780660800,"open":71.38745,"high":71.39945,"low":67.398,"close":67.584,"volume":859793},{"time":1780833600,"open":67.69915,"high":68.3975,"low":66.769,"close":67.662,"volume":273460},{"time":1780876800,"open":68.2495,"high":68.8387,"low":66.007,"close":67.788,"volume":968041},{"time":1780920000,"open":68.788,"high":68.8499,"low":67.285,"close":67.862,"volume":750193},{"time":1780963200,"open":67.637,"high":68.879,"low":67.322,"close":67.843,"volume":653152},{"time":1781006400,"open":68.5717,"high":68.9457,"low":63.638,"close":64.509,"volume":1337119},{"time":1781049600,"open":64.5715,"high":65.668,"low":63.206,"close":65.444,"volume":1141385},{"time":1781092800,"open":64.1755,"high":65.6661,"low":61.329,"close":63.891,"volume":1324650},{"time":1781136000,"open":63.482,"high":64.663,"low":62.619,"close":63.877,"volume":967154},{"time":1781179200,"open":63.3555,"high":67.8755,"low":63.28,"close":66.733,"volume":1218813},{"time":1781222400,"open":67.2595,"high":67.4705,"low":65.721,"close":66.107,"volume":883278},{"time":1781265600,"open":66.4035,"high":68.2675,"low":66.046,"close":67.824,"volume":739565},{"time":1781438400,"open":69.367,"high":70.466,"low":67.821,"close":70.071,"volume":185906},{"time":1781481600,"open":69.967,"high":71.159,"low":69.737,"close":70.904,"volume":515223},{"time":1781524800,"open":71.09775,"high":71.234,"low":69.114,"close":69.183,"volume":442584},{"time":1781568000,"open":69.7605,"high":71.181,"low":68.914,"close":70.03,"volume":468742},{"time":1781611200,"open":71.064,"high":71.1135,"low":69.25,"close":70.311,"volume":617879},{"time":1781654400,"open":70.0975,"high":70.4385,"low":69.333,"close":69.964,"volume":461021},{"time":1781697600,"open":69.8645,"high":71.4716,"low":66.635,"close":69.196,"volume":1061826},{"time":1781740800,"open":69.029,"high":69.762,"low":66.177,"close":66.779,"volume":672186},{"time":1781784000,"open":66.3665,"high":67.4789,"low":64.783,"close":64.852,"volume":668605},{"time":1781827200,"open":65.235,"high":65.343,"low":63.114,"close":64.55,"volume":496663},{"time":1781870400,"open":65.2585,"high":65.2975,"low":64.031,"close":64.664,"volume":122841},{"time":1782043200,"open":64.48325,"high":67.01,"low":64.068,"close":65.718,"volume":184323},{"time":1782086400,"open":66.22445,"high":67.076,"low":65.267,"close":66.362,"volume":507978},{"time":1782129600,"open":66.144,"high":66.793,"low":63.644,"close":63.897,"volume":618473},{"time":1782172800,"open":64.839,"high":65.1047,"low":61.493,"close":62.226,"volume":747013},{"time":1782216000,"open":61.81,"high":62.40615,"low":60.579,"close":61.522,"volume":607862},{"time":1782259200,"open":61.4445,"high":62.347,"low":57.847,"close":59.342,"volume":690387},{"time":1782302400,"open":58.0805,"high":59.5215,"low":55.423,"close":56.696,"volume":840548},{"time":1782345600,"open":57.161,"high":58.87,"low":56.186,"close":56.848,"volume":822459},{"time":1782388800,"open":58.1045,"high":58.9335,"low":56.707,"close":56.992,"volume":790325},{"time":1782432000,"open":57.5635,"high":59.084,"low":55.54,"close":58.772,"volume":642652},{"time":1782475200,"open":58.8035,"high":59.52,"low":57.8985,"close":58.439,"volume":415553},{"time":1782648000,"open":59.05735,"high":59.307,"low":57.895,"close":58.168,"volume":210355},{"time":1782691200,"open":58.568,"high":59.073,"low":57.261,"close":57.994,"volume":701931},{"time":1782734400,"open":58.28,"high":58.6685,"low":56.437,"close":57.255,"volume":459775},{"time":1782777600,"open":57.427,"high":59.52125,"low":56.512,"close":59.068,"volume":534414},{"time":1782820800,"open":58.241,"high":60.348,"low":57.337,"close":57.529,"volume":397582},{"time":1782864000,"open":58.3985,"high":60.557,"low":57.005,"close":60.139,"volume":469290},{"time":1782907200,"open":58.722,"high":60.9148,"low":58.2333,"close":59.618,"volume":464199},{"time":1782950400,"open":59.3715,"high":61.987,"low":59.144,"close":61.698,"volume":543559},{"time":1782993600,"open":61.074,"high":62.32,"low":60.195,"close":62.055,"volume":572093},{"time":1783036800,"open":61.3395,"high":62.8045,"low":61.2061,"close":62.066,"volume":353036},{"time":1783080000,"open":62.314,"high":62.432,"low":61.8215,"close":62.299,"volume":102467},{"time":1783252800,"open":62.7835,"high":63.184,"low":62.209,"close":62.252,"volume":165159},{"time":1783296000,"open":62.5995,"high":63.0255,"low":61.203,"close":61.667,"volume":392080},{"time":1783339200,"open":61.53585,"high":62.258,"low":60.755,"close":61.374,"volume":328781},{"time":1783382400,"open":61.382,"high":61.771,"low":60.148,"close":61.161,"volume":458590},{"time":1783425600,"open":61.549,"high":61.7732,"low":59.282,"close":59.852,"volume":594362},{"time":1783468800,"open":60.024,"high":60.967,"low":57.898,"close":58.272,"volume":742434},{"time":1783512000,"open":58.468,"high":58.8885,"low":57.059,"close":58.049,"volume":602375},{"time":1783555200,"open":58.2305,"high":60.165,"low":57.431,"close":60.088,"volume":540074},{"time":1783598400,"open":59.232,"high":60.5259,"low":59.123,"close":59.962,"volume":362329},{"time":1783641600,"open":60.0935,"high":60.6775,"low":59.114,"close":59.566,"volume":399984},{"time":1783684800,"open":59.549,"high":59.9695,"low":58.7862,"close":59.618,"volume":258077},{"time":1783857600,"open":58.89045,"high":59.646,"low":58.269,"close":58.337,"volume":177892},{"time":1783900800,"open":58.709,"high":59.04565,"low":57.55,"close":58.027,"volume":457923},{"time":1783944000,"open":58.595,"high":58.6305,"low":56.707,"close":57.266,"volume":536895},{"time":1783987200,"open":57.3995,"high":59.5705,"low":56.776,"close":58.926,"volume":521967},{"time":1784030400,"open":58.91235,"high":59.588,"low":58.236,"close":58.268,"volume":442723},{"time":1784073600,"open":58.856,"high":58.983,"low":57.645,"close":58.182,"volume":535361},{"time":1784116800,"open":58.5505,"high":58.7594,"low":56.453,"close":56.935,"volume":570165},{"time":1784160000,"open":57.3725,"high":57.51,"low":55.288,"close":55.561,"volume":489878},{"time":1784203200,"open":55.75095,"high":56.452,"low":54.889,"close":55.062,"volume":490721},{"time":1784246400,"open":55.6705,"high":55.993,"low":54.612,"close":55.639,"volume":532956},{"time":1784289600,"open":54.997,"high":56.181,"low":54.768,"close":55.705,"volume":448978},{"time":1784462400,"open":55.5387,"high":56.715,"low":55.354,"close":56.494,"volume":168575},{"time":1784505600,"open":56.5109,"high":57.39315,"low":56.217,"close":56.613,"volume":524221},{"time":1784548800,"open":56.661,"high":57.0915,"low":55.952,"close":56.753,"volume":464852},{"time":1784592000,"open":56.816,"high":59.1585,"low":56.65,"close":58.276,"volume":512079},{"time":1784635200,"open":58.794,"high":59.813,"low":58.1575,"close":59.799,"volume":368379},{"time":1784678400,"open":59.111,"high":60.399,"low":58.739,"close":60.339,"volume":452382},{"time":1784721600,"open":58.96755,"high":60.844,"low":58.9155,"close":59.36,"volume":413449},{"time":1784764800,"open":59.7715,"high":59.98485,"low":56.9,"close":57.462,"volume":488807},{"time":1784808000,"open":57.548,"high":57.9525,"low":56.965,"close":57.494,"volume":384229},{"time":1784851200,"open":57.75,"high":58.549,"low":56.93,"close":58.203,"volume":389726},{"time":1784894400,"open":58.3085,"high":58.89575,"low":57.7535,"close":58.105,"volume":299788}];
+
+    const CHART = {
+      layoutBgTop: '#181b22',
+      layoutBgBottom: '#000000',
+      textColor: 'rgba(255, 255, 255, 0.7)',
+      gridVert: 'rgba(255, 255, 255, 0.02)',
+      gridHorz: 'rgba(255, 255, 255, 0.03)',
+      scaleBorder: 'rgba(255, 255, 255, 0.08)',
+      upColor: '#00c853',
+      downColor: '#ff1744',
+      volUp: 'rgba(0, 200, 83, 0.35)',
+      volDown: 'rgba(255, 23, 68, 0.35)',
+    };
+
+    const fmt = (n, d=5) => (n == null || isNaN(n)) ? '—' : Number(n).toFixed(d);
+    const fmtVol = (n) => (n == null || isNaN(n)) ? '—' : Number(n).toLocaleString(undefined, {maximumFractionDigits: 0});
+
+    function initChart(containerId, height, opts) {
+      const el = document.getElementById(containerId);
+      const chart = LightweightCharts.createChart(el, {
+        width: el.clientWidth,
+        height,
+        layout: {
+          background: {
+            type: LightweightCharts.ColorType.VerticalGradient,
+            topColor: CHART.layoutBgTop,
+            bottomColor: CHART.layoutBgBottom,
+          },
+          textColor: CHART.textColor,
+          fontFamily: "'Clash Display', -apple-system, sans-serif",
+          attributionLogo: false,
+        },
+        grid: { vertLines: { color: CHART.gridVert }, horzLines: { color: CHART.gridHorz } },
+        rightPriceScale: { borderColor: CHART.scaleBorder, textColor: CHART.textColor },
+        leftPriceScale: { textColor: CHART.textColor },
+        timeScale: { borderColor: CHART.scaleBorder, timeVisible: true, secondsVisible: false, textColor: CHART.textColor },
+        crosshair: { mode: LightweightCharts.CrosshairMode.Normal, vertLine: { color: 'rgba(255,255,255,0.25)' }, horzLine: { color: 'rgba(255,255,255,0.25)' } },
+        ...opts,
+      });
+      const ro = new ResizeObserver(() => chart.applyOptions({ width: el.clientWidth }));
+      ro.observe(el);
+      return chart;
+    }
+
+    const mainChart = initChart('chart', 420);
+    const candles = mainChart.addCandlestickSeries({
+      upColor: CHART.upColor,
+      downColor: CHART.downColor,
+      borderUpColor: CHART.upColor,
+      borderDownColor: CHART.downColor,
+      wickUpColor: CHART.upColor,
+      wickDownColor: CHART.downColor,
+    });
+    candles.setData(BARS.map(b => ({
+      time: b.time, open: b.open, high: b.high, low: b.low, close: b.close,
+    })));
+
+    const volChart = initChart('volume-chart', 100, {
+      timeScale: { visible: false, textColor: CHART.textColor },
+      rightPriceScale: { scaleMargins: { top: 0.1, bottom: 0 }, textColor: CHART.textColor },
+    });
+    const volume = volChart.addHistogramSeries({
+      priceFormat: { type: 'volume' },
+      priceScaleId: 'right',
+    });
+    volume.setData(BARS.map(b => ({
+      time: b.time,
+      value: b.volume,
+      color: b.close >= b.open ? CHART.volUp : CHART.volDown,
+    })));
+
+    mainChart.timeScale().subscribeVisibleLogicalRangeChange(range => {
+      if (range) volChart.timeScale().setVisibleLogicalRange(range);
+    });
+    volChart.timeScale().subscribeVisibleLogicalRangeChange(range => {
+      if (range) mainChart.timeScale().setVisibleLogicalRange(range);
+    });
+
+    function formatBarTime(time) {
+      if (typeof time === 'number') {
+        return new Date(time * 1000).toISOString().slice(0, 16).replace('T', ' ');
+      }
+      if (typeof time === 'string') {
+        if (time.includes('T')) return time.slice(0, 16).replace('T', ' ');
+        return `${time} 00:00`;
+      }
+      return '—';
+    }
+
+    function setHover(bar) {
+      const o = document.getElementById('hO');
+      const h = document.getElementById('hH');
+      const l = document.getElementById('hL');
+      const c = document.getElementById('hC');
+      const v = document.getElementById('hV');
+      const t = document.getElementById('hT');
+      const data = bar || (BARS.length ? BARS[BARS.length - 1] : null);
+      if (!data) {
+        [o, h, l, c, v, t].forEach(el => el.textContent = '—');
+        c.className = '';
+        return;
+      }
+      const raw = BARS.find(b => b.time === data.time) || data;
+      o.textContent = fmt(data.open);
+      h.textContent = fmt(data.high);
+      l.textContent = fmt(data.low);
+      c.textContent = fmt(data.close);
+      c.className = data.close >= data.open ? 'up' : 'down';
+      v.textContent = fmtVol(raw.volume);
+      t.textContent = formatBarTime(data.time);
+    }
+
+    mainChart.subscribeCrosshairMove(param => {
+      if (!param.time) {
+        setHover(null);
+        return;
+      }
+      const bar = param.seriesData.get(candles);
+      setHover(bar || null);
+    });
+
+    setHover(null);
+    mainChart.timeScale().fitContent();
+    volChart.timeScale().fitContent();
+  </script>
+</body>
+</html>
